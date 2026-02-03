@@ -811,7 +811,7 @@ body.menu-open {
 
   .stats {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     text-align: center;
   }
@@ -819,7 +819,7 @@ body.menu-open {
   /* 2x2 when 4 no longer fits */
   @media (max-width: 900px) {
     .stats {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
   }
   
@@ -1168,7 +1168,7 @@ body.menu-open {
   }
 
   .trustpilot-stars{
-    height: 25px;
+    height: 18px;
     width: auto;
   }
 
