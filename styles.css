@@ -806,6 +806,11 @@ body.menu-open {
   .grid-bigger-gap{
     gap: 4rem;
   }
+
+  .registered-logo{
+    width: 80%;
+    margin-top: 1rem;
+  }
   
   /* Stats */
 
