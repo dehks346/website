@@ -58,7 +58,8 @@
   /* Layout */
   .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 1.5rem;
   }
   
@@ -292,7 +293,8 @@
 
 
   .header-container{
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1200px;
   }
   
@@ -614,7 +616,8 @@
     display: flex;
     gap: 4rem;
     align-items: center;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .about-titles{
