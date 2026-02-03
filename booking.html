@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book your chiropractic or reiki session at Healing Hands.">
+  <title>Book Appointment | Healing Hands</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">
+          <img src="templogo.png" alt="">
+        </span>
+        <span>Bumble & Flow</span>
+      </a>
+      <nav class="nav navbar-text" id="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="index.html#faq">FAQ</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    <div class="nav-btns">
+        <a href="booking.html" class="btn outline btn-primary"><img src="booknow.png" class="btn-icon" alt="">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+<main>
+
+  <section class="section white">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="playfair-display">Schedule Your Healing Journey</h2>
+      <p class="">Select your preferred service and choose a convenient time</p>
+  </div>
+
+      <article class="card">
+        <div class="card-body text-center" style="min-height: 500px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+          <iframe id='cliniko-84575249' src='https://bumble-and-flow-chiropractic-and-reiki.uk2.cliniko.com/bookings?embedded=true' frameborder='0' scrolling='auto' width='100%' height='1000' style='pointer-events: auto;'></iframe>
+          <script type='text/javascript'>
+            window.addEventListener('message', function handleIFrameMessage (e) {
+              var clinikoBookings = document.getElementById('cliniko-84575249');
+              if (typeof e.data !== 'string') return;
+              if (e.data.search('cliniko-bookings-resize') > -1) {
+                var height = Number(e.data.split(':')[1]);
+                clinikoBookings.style.height = height + 'px';
+              }
+              e.data.search('cliniko-bookings-page') > -1 && clinikoBookings.scrollIntoView();
+            });
+          </script>
+        </div>
+      </article>
+    </div>
+  </div>
+  </section>
+
+  <section class="cta section-muted">
+    <div class="container">
+      <h2 class="playfair-display cta-h2">Need Help Choosing?</h2>
+      <p>Not sure which service is right for you? We'll discuss your needs during your first visit.</p>
+      <div class="cta-btns">
+        <a href="#" class="btn btn-primary outline"><img src="callnow.png" class="btn-icon" alt="">Call at: +44 07763 323726</a>
+      </div>
+    </div>
+  </section>
+</main>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Bumble and Flow</h4>
+        <p class="text-muted">Chiropractic care combined with reiki energy healing to restore balance and vitality.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <nav>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="index.html#faq">FAQ</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <nav>
+          <a href="tel:+4407763 323726">07763 323726</a>
+          <a href="mailto:info@bumblechiro.co.uk">info@bumblechiro.co.uk</a>
+          <span class="text-muted">Kenfield Coachworks, Mill Lane, Smarden, Ashford, United Kingdom, TN27 8NW</span>
+        </nav>
+      </div>
+      <div>
+        <h4>Book & Review</h4>
+        <a href="booking.html" class="btn btn-primary border mb-2 footer-btn" style="width: 100%;"><img src="booknow.png" class="btn-icon" alt="">Book Appointment</a>
+        <a href="#" class="btn btn-accent footer-btn" style="width: 100%;"><img src="star.png" class="btn-icon" alt="">Leave a Review</a>
+      </div>
+    </div>
+    <div class="footer-bottom text-muted">
+      <p>© 2026 Bumble and Flow. All rights reversed | Lisensed Chiropractor & Certified Reiki Practitioner | Designed & Developed By <a style="color: darkgray; text-decoration: underline;" href="https://dehks346.github.io/personal-portfolio/index.html" target="_blank">Henry Farren</a></p>
+    </div>
+  </div>
+</footer>
+<script src="navbar.js"></script>
+
+</body>
+</html>
+
