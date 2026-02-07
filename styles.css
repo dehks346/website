@@ -1487,3 +1487,82 @@ body.menu-open {
 @media (max-width: 480px) {
 
 }
+
+
+/* =========================
+   Policy / Complaints Pages
+   ========================= */
+
+  
+  .policy-container {
+    max-width: 900px;
+  }
+  
+  .policy-section {
+    padding: 2.75rem 0;
+  }
+  
+  .policy-section.muted {
+    background: var(--muted-bg);
+  }
+  
+  .policy-title {
+    font-size: 2.6rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .policy-intro {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+  
+  .policy-heading {
+    font-size: 1.9rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .policy-block {
+    margin-bottom: 2rem;
+  }
+  
+  .policy-subheading {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .policy-contact a {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  
+  .policy-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+  }
+  
+  .policy-list li {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    padding: 0.4rem 0;
+  }
+  
+  .policy-list img {
+    width: 18px;
+    margin-top: 0.25rem;
+  }
+  
+  .policy-note {
+    margin-top: 1rem;
+    color: var(--text-muted);
+  }
+  
+  .policy-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
